@@ -1,0 +1,233 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin: 0;
+    font-weight: bolder;
+    padding: 0;
+}
+.container{
+    max-width:1500px;
+    height:600px;
+    width:100%;
+}
+
+.mainone{
+    font-size: 30px;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),  url(https://kfund.github.io/web-front-end/lesson10/assets/images/background.png) no-repeat;
+    align-items:flex-start;
+    height: 100vh;
+    width: 100%;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+p{
+
+    font-size:20px;
+}
+a{
+}
+.dobavitotstup{
+    margin-top:50px ;
+}
+.startup{
+    margin-top: 60px;
+}
+.startuptxt{
+    padding: 5px;
+    width:700px;
+    display:flex;
+    justify-content:flex-start;
+}
+.spisokone{
+    width:700px;
+    display:flex;
+    justify-content:flex-end;
+}
+ul{
+    display:flex;
+    flex-direction:row;
+    font-size: 20px;
+    
+    list-style:none;
+
+   
+
+}
+li{
+    padding:0 10px;
+}
+li:hover{
+    font-size: 40px;
+    transition: 1s;
+}
+.startup{
+    width:1400px;
+    display:flex;
+    align-items:center;
+    flex-direction:column;
+
+}
+.startuptxttop{
+    margin: 30px;
+}
+.started{
+    font-size: 40px;
+    margin: 100px;
+    border: 2px solid rgb(255, 255, 255);
+    width: 280px;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    padding: 20px;
+}
+.started:hover{
+    border: 2px solid black;
+    background:rgb(255, 253, 253);
+    color:rgb(241, 8, 8);
+    transition: 0.4s;
+    -webkit-transition: 2s ease;
+}
+.maintwo{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.servicesblock{
+    width: 1400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.line{
+    height: 5px;
+    width: 100px;
+    background:rgb(128, 128, 128);
+    
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.titlesdowntxt{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px;
+}
+.mainthree{
+    background: coral;
+    display: flex;
+}
+.twittericons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    font-size: 55px;
+    color: rgb(255, 253, 253);
+}
+.twitt:hover{
+   background: rgb(255, 253, 253);
+    color: rgb(255, 127, 80);
+    transition: 1s;
+}
+.twitt{
+    width: 50px;
+    height: 50px;
+    border: 4px solid rgb(255, 253, 253);
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px;
+    padding: 18px;
+    font-size: 40px;
+    color: rgb(255, 253, 253);
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.icons{
+    display: flex;
+    justify-content:space-around ;
+    font-size: 55px;
+    color: rgb(255, 127, 80);
+}
+.circle{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.services{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color:hsl(0, 1%, 40%);
+    margin-top:100px;
+    max-width:1400px;
+}
+
+.line{
+    height: 5px;
+    width: 100px;
+    background:rgb(128, 128, 128);
+    
+}
+.ikonki{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 50px;
+    max-width:1400px;
+
+}
+.ikonka{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:0 30px ;
+}
+.iska{
+    width:100px;
+    height: 100px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:1px solid hsl(0, 2%, 37%);
+    font-size:50px;
+    color:rgb(255, 127, 80);
+}
+.iska:hover{
+    background: rgb(220, 20, 60);
+    color: rgb(255, 255, 255);
+    transition: 0.8s;
+}
+@media screen and (max-width:767px) {
+    .mainone{
+        width: 100%;
+        height: 100vh;
+    }
+    .top{
+        display: none;
+    }
+    .ikonki{
+        display: flex;
+        flex-direction: column;
+    }
+}
